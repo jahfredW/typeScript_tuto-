@@ -11,16 +11,16 @@ Avant de commencer, assurez-vous d'avoir Node.js installé sur votre système.
 1. **Installer TypeScript**:
    Ouvrez votre terminal et exécutez la commande suivante pour installer TypeScript globalement:
 
-   \`\`\`bash
+   ```bash
    npm install -g typescript
-   \`\`\`
+   ```
 
 2. **Initialiser un Projet TypeScript**:
    Dans le dossier de votre projet, exécutez la commande suivante pour créer un fichier `tsconfig.json`:
 
-   \`\`\`bash
+   ```bash
    tsc --init
-   \`\`\`
+   ```
 
    Vous pouvez personnaliser les options de compilation dans ce fichier selon vos besoins.
 
@@ -31,16 +31,16 @@ Si vous souhaitez également utiliser Tailwind CSS, voici comment vous pouvez l'
 1. **Installer Tailwind CSS**:
    Dans le dossier de votre projet, installez Tailwind CSS via npm:
 
-   \`\`\`bash
+   ```bash
    npm install tailwindcss
-   \`\`\`
+   ```
 
 2. **Générer le fichier de configuration**:
    Vous pouvez générer un fichier de configuration pour Tailwind CSS avec la commande suivante:
 
-   \`\`\`bash
+   ```bash
    npx tailwindcss init
-   \`\`\`
+   ```
 
    Ceci créera un fichier `tailwind.config.js` que vous pouvez personnaliser selon vos besoins.
 
